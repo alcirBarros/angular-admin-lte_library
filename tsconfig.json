@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "admin-lte-library": [
+        "dist/admin-lte-library"
+      ],
+      "admin-lte-library/*": [
+        "dist/admin-lte-library/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
